@@ -162,10 +162,15 @@ li,a,button{
 .conserve{
   font-family: "Montserrat", normal;
   font-weight: 300;
+  margin-left: 100px;
+  margin-right: 100px;
   
   
 }
 
+.conserve a{
+  color: black;
+}
 
 
 
@@ -174,20 +179,18 @@ li,a,button{
 .container{
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+  padding: 20px;
   
   
 }
 .contact-left{
- 
-  
   padding-right: 100px;
 }
 
 .contact-section {
-  
-  
+
   background-color: #24252a;
 }
 
