@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
-  
     margin: 0px;
     padding: -70px;
 }
@@ -100,16 +99,28 @@ li,a,button{
 .learn{
   letter-spacing: 0px;
 }
-/* box ticket*/
-
-
+/* welcome*/
+  .welcome{
+    font-family: "Montserrat", normal;
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 65px;
+   
+    color: rgb(0, 0, 0);
+  }
+  .welcome p{
+    margin: 25px;
+  }
 
 
 /* discover*/
 .discover{
     
-    background: #feffff;
-    color: rgb(48, 53, 21);
+    background: #24252a;
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
    
   
 }
@@ -135,21 +146,42 @@ li,a,button{
   justify-content: center;
     font-family: "Montserrat", normal;
     font-weight: 300;
-    margin-top: 10px;
-    margin-bottom: 100px;
+    
     margin-right: 100px;
     margin-left: 100px;   
 }
-/* section */
+/* animal conserve */
+.animal{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.conserve{
+  font-family: "Montserrat", normal;
+  font-weight: 300;
+  
+  
+}
+
+
+
+
+
+/* contact */
 .container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   
+  
 }
 .contact-left{
-  padding: 5em 2em;
+ 
+  
   padding-right: 100px;
 }
 
@@ -200,12 +232,10 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-
- 
  .iframe{
-  float: left;
-  width: 1000px;
-  height: 765.7px
+  
+  width: 100%;
+  height: 300px;
  }
  
   
