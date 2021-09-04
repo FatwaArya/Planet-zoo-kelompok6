@@ -29,7 +29,7 @@ li,a,button{
     margin: 0px;
   }
   
-  .logo {
+  .logo{
     display: flex;
     cursor: pointer;
     margin-right: auto;
@@ -112,15 +112,17 @@ li,a,button{
   }
   .welcome p{
     margin: 25px;
+    font-weight: 400;
   }
 
 
 /* discover*/
 .discover{
-    
+    padding-top: 75px;
+   padding-bottom: 100px;
     background: #24252a;
     color: rgb(255, 255, 255);
-    padding-bottom: 50px;
+    
    
   
 }
@@ -138,18 +140,22 @@ li,a,button{
     margin-right: 1em;
     
 }
+.caption{
+padding: 5px;
 
+}
 .container-discover{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-    font-family: "Montserrat", normal;
-    font-weight: 300;
-    
-    margin-right: 100px;
-    margin-left: 100px;   
+  font-family: "Montserrat", normal;
+  font-weight: 300;  
+  margin-right: 100px;
+  margin-left: 100px;   
 }
+
+
 /* animal conserve */
 .animal{
   display: flex;
@@ -186,7 +192,7 @@ li,a,button{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
+  flex-wrap: wrap;
   padding: 20px;
   
   
