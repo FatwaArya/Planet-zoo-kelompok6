@@ -75,7 +75,7 @@ li,a,button{
   /* MERCHANDISE PAGE */
 
   .header{
-    display:flex;
+   
     background-image: url("images/header.jpeg");
     background-repeat: no-repeat;
     object-fit: cover;
@@ -85,36 +85,50 @@ li,a,button{
     background-position: center;
 
   }
-.merch-container{
-   display: flex;
-    justify-content: center;
-
-    font-family: "Montserrat", normal;
-    font-weight: 500;
-    padding-left: 100px;
-    padding-right: 100px;
-    
+.button{
+  background-color: #24252a;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  border-radius: 4px
+}
+.price{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 300;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+}
+.price h3,p{
+  padding-bottom: 10px;
+}
+  .merch-container{
     padding-bottom: 100px;
-}
+  }
+  .merch-container h1{ 
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+  font-weight: 700;
+  padding: 30px;
+  }
 
-.merch-list{
-  padding-top: 20px;
- text-align: center;
-  
-}
 
 .sweater{
-  text-align: center;
-  padding: 50px;
+  display: flex;
+  justify-content: center;
+  
+}
+.sweater img{
+  padding-left: 63.5px;
+  padding-right: 63.5px;
 }
 .tote {
-  text-align: center;
-  padding: 50px;
+  display: flex;
+  justify-content: center;
 }
-.tumblr{
-  text-align: center;
-  padding: 50px;
-}
+
 /* contact */
 .container{
   display: flex;
