@@ -66,7 +66,7 @@ li,a,button{
   .learn{
     font-family: "Montserrat", normal;
     font-weight: 300;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   
@@ -105,7 +105,7 @@ li,a,button{
     font-weight: 300;
     margin: auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 75px;
     margin-bottom: 100px;
    
     color: rgb(0, 0, 0);
